@@ -18,12 +18,12 @@ def is_valid_ip(ip):
 
 # Main Variables 
 
-API_ID = int(environ.get('API_ID', ''))
-API_HASH = environ.get('API_HASH', '')
-BOT_TOKEN = environ.get('BOT_TOKEN', '')
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
+API_ID = int(environ.get('API_ID', '22161204'))
+API_HASH = environ.get('API_HASH', 'fdffc74281153b3338e4474f5640095e')
+BOT_TOKEN = environ.get('BOT_TOKEN', '8007550775:AAEWKNUIuls-WedoGlxmJLbBlhqWOI1z3Ho')
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7107162691').split()]
 USERNAME = environ.get('USERNAME', "https://telegram.me/Silicon_Official")
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '@log_channel_playz'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/LuciferCinema')
 
 # Pics 
